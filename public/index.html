@@ -9,9 +9,19 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Chat app using sockets.</h1>
+    <link rel="stylesheet" href="styles.css">
 
-    <button id="btn">Click me</button>
+    <h1>Chat app using sockets.</h1>
+    <input type="hidden" id="custId" name="custId" value="3487">
+
+    <input placeholder="room id" type="text" id="roomid">
+    <input placeholder="username" type="text" id="username">
+    <input placeholder="Write here" type="text" id="newmsg">
+    <button id="btn">Send</button>
+
+    <ul id="msgList">
+
+    </ul>
 
 </body>
 </html>
